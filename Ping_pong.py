@@ -41,4 +41,8 @@ class Player(GameSprite):
  window = display.set_mode((win_width, win_height)
  window.fill(back)
 
- game = True
+game = True
+finish = False
+clock = time.Clock()
+FPS = 60
+
